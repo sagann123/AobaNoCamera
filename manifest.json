@@ -21,8 +21,8 @@
 	"content_scripts": [
 		{
 			"matches": [
-				"http://www.dmm.com/netgame/social/-/gadgets/=/app_id=854854/",
-				"http://osapi.dmm.com/gadgets/*"
+				"https://play.games.dmm.com/game/kancolle",
+				"https://osapi.dmm.com/gadgets/*"
 			],
 			"js": [
 				"lib/canvas-to-blob.js",
@@ -45,8 +45,8 @@
 		},
 		{
 			"matches": [
-				"http://www.dmm.com/netgame/social/-/gadgets/=/app_id=854854/",
-				"http://osapi.dmm.com/gadgets/*"
+				"https://play.games.dmm.com/game/kancolle",
+				"https://osapi.dmm.com/gadgets/*"
 			],
 			"js": [
 				"logic/MyKey.js",
@@ -57,7 +57,7 @@
 		},
 		{
 			"matches": [
-				"http://*/kcs2/index.php*"
+				"https://*/kcs2/index.php*"
 			],
 			"js": [
 				"intercept_canvas.js"

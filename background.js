@@ -81,7 +81,7 @@ chrome.tabs.onZoomChange.addListener(function(zoomChangeInfo){
 chrome.action.onClicked.addListener(function(tab) {
     // ボタンが有効な場合に実行
     chrome.action.getTitle({ tabId: tab.id }, function(result) {
-        if (tab.url.indexOf('www.dmm.com/netgame/social/-/gadgets/=/app_id=854854/') < 0) {        
+        if (tab.url.indexOf('https://play.games.dmm.com/game/kancolle') < 0) {        
             //alert("艦これのゲーム画面以外では動作しません。")
             return;
         }
