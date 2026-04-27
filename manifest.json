@@ -1,8 +1,8 @@
 {
-	"name": "青葉のカメラ",
-	"version": "0.9.0",
+	"name": "青葉のカメラ For Flight-IIA",
+	"version": "0.9.1",
 	"manifest_version": 3,
-	"description": "艦隊これくしょん～艦これ～ でプレイ画面のスクリーンショットを取得",
+	"description": "艦隊これくしょん～艦これ～ でプレイ画面のスクリーンショットを取得 Flight-IIA mode対応版",
 	"icons": {
 		"128": "icon/icon128.png",
 		"48":  "icon/icon48.png",
