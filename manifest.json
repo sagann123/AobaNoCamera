@@ -71,6 +71,6 @@
 		"matches": ["<all_urls>"]
 	  }
 	],
-	"permissions": ["background", "management", "tabs", "storage"],
+	"permissions": ["tabs", "storage"],
 	"host_permissions": ["<all_urls>"]
 }
