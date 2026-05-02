@@ -45,11 +45,11 @@ var sendHotKey = function(key) {
 var toggleButton = function(tabId, flag) {
     if (flag === true) {
         chrome.action.enable(tabId)
-        chrome.action.setTitle({ tabId: tabId, title: '青葉のカメラ' });
+        chrome.action.setTitle({ tabId: tabId, title: '青葉のカメラ For Flight-IIA' });
         chrome.action.setIcon({ tabId: tabId, path: 'icon/icon38_enabled.png' });
     } else {
         chrome.action.disable(tabId)
-        chrome.action.setTitle({ tabId: tabId, title: '青葉のカメラ' });
+        chrome.action.setTitle({ tabId: tabId, title: '青葉のカメラ For Flight-IIA' });
         chrome.action.setIcon({ tabId: tabId, path: 'icon/icon38_disabled.png' });
     };
 }

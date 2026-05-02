@@ -10,7 +10,7 @@
 	},
 	"options_page": "options.html",
 	"action": {
-		"default_title": "青葉のカメラ[取得不可]",
+		"default_title": "青葉のカメラ For Flight-IIA[取得不可]",
 		"default_icon":  {
 			"38":  "icon/icon38_disabled.png"
 		}
