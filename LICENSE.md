@@ -1,6 +1,7 @@
 The MIT License (MIT)
 
-Copyright (c) 2026 sagann
+Copyright (c) 2015 Komit
+Modified by sagann (c) 2026  
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
