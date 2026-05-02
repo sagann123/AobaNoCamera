@@ -211,8 +211,8 @@ MyMenu.prototype.eventShowFrame = function(elm) {
 
         // フレームを設定
         self._frame.set(
-            pos.left + frame.left + $(window).scrollLeft() - 5,
-            pos.top + frame.top + $(window).scrollTop() - 5,
+            pos.left + frame.left + $(window).scrollLeft(),
+            pos.top + frame.top + $(window).scrollTop(),
             frame.width,
             frame.height,
             frame.radius
@@ -335,7 +335,7 @@ MyMenu.prototype.getGamePosition = function() {
     var target = $("#game_frame");
     if (target.length === 1) {
         var offset = target.offset();
-        data.top        = Math.round(offset.top + 16) - $(window).scrollTop();
+        data.top        = Math.round(offset.top) - $(window).scrollTop();
         data.left       = Math.round(offset.left + (target.width() - 1200) / 2) - $(window).scrollLeft();
         data.height     = 720;
         data.width      = 1200;

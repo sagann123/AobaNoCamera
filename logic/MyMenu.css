@@ -69,6 +69,10 @@
     border: black solid 1px;
 }
 
+#ancMenu ol {
+    padding-inline-start: 0px;
+}
+
 #ancMenu li {
     margin-left: 25px !important;
     margin-bottom: 10px !important;
