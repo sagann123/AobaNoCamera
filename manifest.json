@@ -68,9 +68,9 @@
 	],
 	"web_accessible_resources": [{
 		"resources": ["logic/MyMenu.html"],
-		"matches": ["<all_urls>"]
+		"matches": ["https://play.games.dmm.com/*"]
 	  }
 	],
 	"permissions": ["tabs", "storage"],
-	"host_permissions": ["<all_urls>"]
+    "host_permissions": ["https://play.games.dmm.com/*", "https://osapi.dmm.com/*", "https://*/kcs2/*"]
 }
