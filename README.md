@@ -10,8 +10,11 @@
 [<img src="http://img.youtube.com/vi/pfFuOBjqqKM/0.jpg" alt="「青葉のカメラ」の使い方" title="「青葉のカメラ」の使い方" width="480px" />](https://www.youtube.com/watch?v=pfFuOBjqqKM)
 
 ## インストール
-**下記はFlight-IIA mode対応前のURLです。**
-[Chromeウェブストア](https://chrome.google.com/webstore/detail/%E9%9D%92%E8%91%89%E3%81%AE%E3%82%AB%E3%83%A1%E3%83%A9/epellgielojfhbjhdnplcnmndnifbien)からインストールしてください。
+GitHubからzipファイルをダウンロード、zipファイルを展開し、Chromeのデベロッパーモードを有効にして読み込んでください。  
+具体的な手順は"GitHubで公開されているChrome拡張機能をインストールする方法"等でWeb検索した結果を参考にしてください。
+
+現在、Flight-IIA mode対応版はChromeウェブストアの登録がリジェクトされていますので、Chromeウェブストアからのインストールはできません。  
+Chromeウェブストアに登録されているのはFlight-IIA modeに対応していないオリジナル版です。
 
 ## 注意事項・制限
   - **本拡張はインストール/アップデート時に艦これのゲーム画面が開いている場合は、ゲーム画面をリロードするまで動作しません。**
